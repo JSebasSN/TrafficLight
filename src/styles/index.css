@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.baseSema{
+    margin-top: 25px;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.lightRed{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.lightYellow{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.lightGreen{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.lightRed.red.active {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 20px yellow;
+  }
+
+.lightYellow.yellow.active {
+    background-color: yellow;
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.lightGreen.green.active {
+    background-color: green;
+    box-shadow: 0px 0px 20px yellow;
+}
+
+button{
+    background-color:darkslategray;
+    width: 150px;
+    height: 45px;
+    color: white;
+    padding: 5px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: grey;
+}
